@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+package review;
+
+message Empty {}
+
+
+message ReviewResponse {
+    int32 id = 1;
+    int32 productId = 2; // ID do livro avaliado
+    int32 stars = 3;     // Nota de 1 a 5
+    string comment = 4;
+}
+
+message ReviewsResponse {
+    repeated ReviewResponse reviews = 1;
+}
+
+service ReviewService {
+    rpc SearchAllReviews(Empty) returns (ReviewsResponse) {}
+}

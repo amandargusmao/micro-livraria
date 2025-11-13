@@ -1,0 +1,26 @@
+[
+    {
+        "id": 101,
+        "productId": 1,
+        "stars": 5,
+        "comment": "O melhor livro sobre microsserviços!"
+    },
+    {
+        "id": 102,
+        "productId": 1,
+        "stars": 4,
+        "comment": "Muito bom, ótima introdução."
+    },
+    {
+        "id": 103,
+        "productId": 3,
+        "stars": 5,
+        "comment": "Excelente material para o desenvolvimento."
+    },
+    {
+        "id": 104,
+        "productId": 2,
+        "stars": 3,
+        "comment": "Um pouco denso, mas muito informativo."
+    }
+]
